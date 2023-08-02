@@ -1,0 +1,182 @@
+ERROR - 2023-02-23 10:12:13 --> Unknown column 'surat_kembali' in 'where clause'
+CRITICAL - 2023-02-23 10:12:13 --> Unknown column 'surat_kembali' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = :surat_kembali:
+AND  `tgl_kembali` LIKE :tgl_kembali: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Views\main\dashboard.php(79): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\main\\dashboard.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('main/dashboard', [], true)
+ 9 APPPATH\Controllers\Main.php(20): view('main/dashboard')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-23 10:12:16 --> Unknown column 'surat_kembali' in 'where clause'
+CRITICAL - 2023-02-23 10:12:16 --> Unknown column 'surat_kembali' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = :surat_kembali:
+AND  `tgl_kembali` LIKE :tgl_kembali: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Views\main\dashboard.php(79): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\main\\dashboard.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('main/dashboard', [], true)
+ 9 APPPATH\Controllers\Main.php(20): view('main/dashboard')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-23 10:15:52 --> Unknown column 'surat_kembali' in 'where clause'
+CRITICAL - 2023-02-23 10:15:52 --> Unknown column 'surat_kembali' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = \'1\'
+AND  `tgl_kembali` LIKE \'%2023-02-23%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tb_suratmasuk`
+WHERE `surat_kembali` = :surat_kembali:
+AND  `tgl_kembali` LIKE :tgl_kembali: ESCAPE \'!\'', [...], false)
+ 5 APPPATH\Views\main\dashboard.php(79): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\main\\dashboard.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('main/dashboard', [], true)
+ 9 APPPATH\Controllers\Main.php(20): view('main/dashboard')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:17:35 --> Undefined property: stdClass::$status_surat
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 53.
+ 1 APPPATH\Views\daftar\daftarsuratmasuknew.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status_surat', 'APPPATH\\Views\\daftar\\daftarsuratmasuknew.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daftar\\daftarsuratmasuknew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 5 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:33:10 --> syntax error, unexpected 'if' (T_IF), expecting ';' or ','
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 3 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:33:39 --> syntax error, unexpected '<'
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 3 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:33:40 --> syntax error, unexpected '<'
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 3 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:36:28 --> Use of undefined constant terkirim - assumed 'terkirim' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 59.
+ 1 APPPATH\Views\daftar\daftarsuratmasuknew.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant terkirim - assumed \'terkirim\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\daftar\\daftarsuratmasuknew.php', 59, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daftar\\daftarsuratmasuknew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 5 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:37:24 --> Use of undefined constant terkirim - assumed 'terkirim' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 57.
+ 1 APPPATH\Views\daftar\daftarsuratmasuknew.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant terkirim - assumed \'terkirim\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\daftar\\daftarsuratmasuknew.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daftar\\daftarsuratmasuknew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 5 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 10:55:05 --> syntax error, unexpected '<'
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 57.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 3 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 13:17:48 --> syntax error, unexpected '}'
+in APPPATH\Controllers\SuratMasuk.php on line 56.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SuratMasuk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SuratMasuk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SuratMasuk')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SuratMasuk')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\SuratMasuk', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 13:30:00 --> syntax error, unexpected '}'
+in APPPATH\Controllers\SuratMasuk.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SuratMasuk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SuratMasuk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SuratMasuk')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SuratMasuk')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\SuratMasuk', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 13:57:41 --> syntax error, unexpected '/'
+in APPPATH\Views\daftar\daftarsuratmasuknew.php on line 198.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daftar/daftarsuratmasuknew', [], true)
+ 3 APPPATH\Controllers\SuratMasuk.php(34): view('daftar/daftarsuratmasuknew', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\SuratMasuk->testing()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
